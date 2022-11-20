@@ -22,4 +22,23 @@
         margin-top: 50px;
         width: 80vw;
     }
+
+    #icons{
+        margin: auto;
+        margin-bottom: 50px;
+        position: relative;
+        top: 50px;
+        left: 0;
+    }
+
+}
+
+@media (max-width: 550px){
+    h1{
+        font-size: 1.7rem;
+    }
+
+    button{
+        padding: 12px 70px;
+    }
 }
