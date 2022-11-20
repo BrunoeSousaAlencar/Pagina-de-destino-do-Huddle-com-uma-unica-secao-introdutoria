@@ -12,6 +12,17 @@
         text-align: center;
     }
 
+    h1{
+        margin-top: 120px;
+    }
+
+    p{
+        margin: 30px 0;
+    }
+
+    #logo{
+        margin: 30px;
+    }
     #ilustracao{
         width: 80vw;
         margin-left: 9vw;
