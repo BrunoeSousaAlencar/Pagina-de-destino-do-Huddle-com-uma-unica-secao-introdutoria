@@ -78,6 +78,7 @@ button{
 button:hover{
     color: var(--text);
     background-color: var(--Soft-Magenta);
+    box-shadow: 0 0 2px var(--Soft-Magenta);
 }
 
 #icons{
@@ -97,6 +98,7 @@ button:hover{
     padding: 5px;
     cursor: pointer;
     margin-left: 9px;
+    transition: all .1s;
 }
 
 .icons-social:hover{
@@ -106,3 +108,13 @@ button:hover{
 #fece{
     padding: 5px;
 }
+
+.attribution { 
+    margin: 10px;
+    font-size: 11px;
+    text-align: center; 
+    color: var(--text);
+}
+.attribution a { color: var(--Soft-Magenta); }
+
+.attribution a:hover { text-decoration: none;}
